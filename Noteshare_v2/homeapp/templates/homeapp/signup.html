@@ -1,0 +1,17 @@
+{% extends 'homeapp/base.html' %}
+{% block content %}
+    <div class="container">
+        <h1>Sign Up Page</h1>
+        <label>First Name</label>
+        <input type="text" class="form-control" name="first_name" placeholder="Enter First Name">
+        <label>Last Name</label>
+        <input type="text" class="form-control" name="last_name" placeholder="Enter Last Name">
+        <label>Email</label>
+        <input type="email" class="form-control" name="email" placeholder="Enter Email">
+        <label>Password</label>
+        <input type="password" class="form-control" name="password" placeholder="Enter Password">
+        <label>Confirm Password</label>
+        <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password">
+        <button class="btn btn-primary">Sign Up</button>
+    </div>
+{% endblock content%}
